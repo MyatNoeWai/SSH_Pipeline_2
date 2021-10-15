@@ -4,9 +4,9 @@ name: test-ssh
 
 server:
   host: 35.75.3.145
-  user: Myat Noe
+  user: ubuntu
   password:
-    from_secret: 1234
+    from_secret: password
 
 steps:
 - name: greeting
