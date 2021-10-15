@@ -3,10 +3,10 @@ type: ssh
 name: test-ssh
 
 server:
-  host: https://tysondrone.digitalstacks.net/
-  user: ubuntu
+  host: 35.75.3.145
+  user: Myat Noe
   password:
-    from_secret: password
+    from_secret: 1234
 
 steps:
 - name: greeting
