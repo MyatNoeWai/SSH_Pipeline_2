@@ -8,7 +8,7 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
+- name: greeting1
   commands:
   - echo hello world
 
