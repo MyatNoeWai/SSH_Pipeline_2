@@ -1,14 +1,15 @@
+---
 kind: pipeline
-type: ssh
+type: exec
 name: default
 
-server:
-  host: 35.75.3.145
-  user: ubuntu
-  password:
-    from_secret: password
+platform:
+  os: linux
+  arch: amd64
 
 steps:
 - name: greeting
   commands:
   - echo hello world
+
+...
