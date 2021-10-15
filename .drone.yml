@@ -1,6 +1,6 @@
 kind: pipeline
 type: ssh
-name: test-ssh
+name: default
 
 server:
   host: 35.75.3.145
