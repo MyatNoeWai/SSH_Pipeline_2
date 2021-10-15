@@ -1,15 +1,14 @@
----
 kind: pipeline
 type: ssh
 name: default
 
-platform:
-  os: linux
-  arch: amd64
+server:
+  host: tysondrone.digitalstacks.net
+  user: ubuntu
+  password:
+    from_secret: password
 
 steps:
-- name: greeting1
+- name: greeting
   commands:
   - echo hello world
-
-...
